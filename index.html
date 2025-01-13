@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURAKSHA's PROTFOLIO</title>
+    <link rel="stylesheet" href="protfolio.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SURAKSHA</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" data-target="about">About</a></li>
+                    <li><a href="#" data-target="skills">Skills</a></li>
+                    <li><a href="#" data-target="projects">Projects</a></li>
+                    <li><a href="#" data-target="contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="aboutsection">
+            <div class="leftsec">
+                Hi I am SURAKSHA. I am a Passonaite
+                <span id="element"></span>
+                <p>Passonaite learner and open to explore new things</p>
+
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/suraksha-g-a31467289" target="_blank"><i
+                                class='bx bxl-linkedin-square'></i></a></li>
+                    <li><a href="https://github.com/surakshaganesh" target="_blank"><i class='bx bxl-github'></i></a>
+                    </li>
+                </ul>
+                <a class="CV" href="assests/Suraksha resume.pdf" target="_blank" download="Suraksha resume.pdf">Download
+                    CV</a>
+
+            </div>
+
+            <div class="rightsec">
+                <img src="img/photo.jpg" alt="#">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', ' and ', 'Cyber Security engineer'],
+            typeSpeed: 60,
+        });
+    </script>
+
+    <hr>
+
+    <section id="about" class="about">
+
+        <div class="img">
+            <img src="img/photo1.jpg" alt="">
+        </div>
+
+        <div class="text">
+            <h1>About Me</h1>
+            <p>As a Third year CSE-cyber security Engineering student studying under VTU. Passionate about web
+                development and cyber security. Constantly seeking opportunities to expand my knowledge and skills.
+                Have the ability of good Leadership and problem-solving skills.I continuously seek opportunities to
+                expand my knowledge and skills. Open to embracing new challenges and opportunities.</p>
+
+        </div>
+
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <div class="sk">MY SKILLS</div>
+
+    <section id="skills" class="skills">
+
+        <div class="C1">
+            <i class='bx bxl-html5'></i>
+            <div>HTML</div>
+        </div>
+
+        <div class="C2">
+            <i class='bx bxl-css3'></i>
+            <div>CSS</div>
+        </div>
+
+        <div class="C3">
+            <i class='bx bxl-javascript' undefined></i>
+            <div>Java Script</div>
+        </div>
+
+        <div class="C4">
+            <i class='bx bxl-java'></i>
+            <div>Java</div>
+        </div>
+
+        <div class="C5">
+            <i class='bx bxl-c-plus-plus'></i>
+            <div>C++</div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <div class="PR">MY PROJECTS</div>
+
+    <section id="projects" class="projects-section">
+
+        <div class="projects-grid">
+            <!-- Typing Speed Calculator -->
+            <div class="project-card">
+                <div class="project-header">Typing Speed Calculator</div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Developed a Java-based application to calculate typing speed metrics (WPM and CPM).Improved code
+                        readability and user interface through efficient design practices.
+                    </p>
+                    <a href="https://github.com/surakshaganesh/typingspeedcalculator.git" target="_blank"
+                        class="project-link">Github link</a>
+                </div>
+            </div>
+
+            <!-- Calculator -->
+            <div class="project-card">
+                <div class="project-header">Calculator</div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Designed and implemented a responsive calculator application <strong>Technologies Used:</strong>
+                        HTML, CSS, JavaScript. Created an intuitive user interface for basic arithmetic operations and
+                        developed efficient JavaScript functions for seamless functionality.
+                    </p>
+                    <a href="https://github.com/surakshaganesh/Calculator-Encryptix3.git" target="_blank"
+                        class="project-link">Github link</a>
+                </div>
+            </div>
+
+            <!-- Simulation of 3D Bike -->
+            <div class="project-card">
+                <div class="project-header">Simulation of 3D Bike</div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Successfully designed and implemented a bike simulation with realistic physics and rendering,
+                        utilizing advanced computer graphics techniques and algorithms.Implemented OpenGL for rendering
+                        3D models and creating an interactive graphical interface using a C++ compiler.
+                    </p>
+                    <a href="#" target="_blank" class="project-link">Github link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact" class="GIT">
+
+        <h2>Contact Me</h2>
+
+        <div class="box">
+            <div class="form-container">
+                <form id=contact-form>
+                    <div class="inputbox">
+                        <input type="text" id="name" placeholder="Name" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="email" id="email" placeholder="Email" required>
+                        <i class="bx bxs-user"></i>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="number" id="number" placeholder="phone number" required>
+                        <i class='bx bxs-contact'></i>
+                    </div>
+
+                    <div class="inputbox">
+                        <input type="text" placeholder="leave a message" required>
+                        <i class='bx bxs-chat'></i>
+                    </div>
+
+                    <div class="btn"><button>send message</button></div>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="footer">
+        <div class="CR">
+            <p>Copyright &copy;2024; Designed by Suraksha</p>
+        </div>
+    </div>
+
+    <script src="protfolio.js"></script>
+
+</body>
+
+</html>
